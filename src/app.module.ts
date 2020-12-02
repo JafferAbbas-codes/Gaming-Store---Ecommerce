@@ -12,7 +12,7 @@ import { OrdersModule } from './orders/orders.module';
   imports: [
     ProductsModule,
     MongooseModule.forRoot(
-      'mongodb+srv://jaffer:fMlMbAprMZ65Z6UF@nodeapi-al9by.mongodb.net/taskback?retryWrites=true&w=majority',
+      'mongodb+srv://jaffer:MJ1FnDyK0QC1yTlY@nodeapi-al9by.mongodb.net/taskback?retryWrites=true&w=majority',
     ),
     AuthModule,
     CategoryModule,
