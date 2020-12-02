@@ -33,7 +33,7 @@ export interface Product extends mongoose.Document {
   title: string;
   description: string;
   category: mongoose.Document;
-  imageName : String;
-  imageURL: String, 
+  imageName : string;
+  imageURL: string, 
   price: number;
 }
